@@ -20,7 +20,8 @@ const logEvents = async (message, fileName) => {
 
 }
 const logger = (req, res, next) => {
-    const message = `${req.method}\t${req.header.origin}\t${req.url}`
+    console.log('request header',req.headers)
+    const message = `${req.method}\t${req.headers.origin}\t${req.url}`
     const fileName = 'event.txt'
     logEvents(message, fileName)
     next();
