@@ -29,3 +29,5 @@
 31072024	15:31:47	5b4b8d7a-8902-45fc-8fe1-1b36c66ddee5	GET	https://www.google.co.in	/
 31072024	15:32:09	d5197af7-64a8-43f9-8c40-5f2d4cbd18c4	GET	https://www.google.co.in	/
 31072024	15:37:56	a2c0dd91-13b3-4cbf-a91c-c2f85d55c3d7	GET	https://www.google.co.in	/
+08082024	21:54:24	d1dcf3fe-1c3e-4b87-aad1-6882174e07a0	GET	undefined	/
+08082024	21:54:24	5151e351-3d33-4992-80fb-bb10e9e6dee4	GET	undefined	/favicon.ico

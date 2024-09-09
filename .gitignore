@@ -1,5 +1,6 @@
 # dotenv environment variables file
 .env
 .env.test
-.txt
+logs
 node_modules
+.txt
