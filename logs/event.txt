@@ -31,3 +31,9 @@
 31072024	15:37:56	a2c0dd91-13b3-4cbf-a91c-c2f85d55c3d7	GET	https://www.google.co.in	/
 08082024	21:54:24	d1dcf3fe-1c3e-4b87-aad1-6882174e07a0	GET	undefined	/
 08082024	21:54:24	5151e351-3d33-4992-80fb-bb10e9e6dee4	GET	undefined	/favicon.ico
+03112024	14:55:19	6484042f-0676-41a9-96b9-a5ae88b7ea5c	GET	undefined	/api/vi/products
+03112024	14:55:30	35d49a16-023a-4526-b8b7-f47e4fa5573b	GET	undefined	/api/v1/products
+03112024	14:55:30	dea4def7-a08e-4761-a63b-9248de37aaf2	GET	undefined	/favicon.ico
+03112024	15:04:42	a8c1466e-f251-43ba-87a1-35c4b05443bc	GET	undefined	/api/v1/products
+03112024	15:04:48	b6ea4971-b361-40fe-8e63-6d07f050e860	GET	undefined	/api/v1/products
+03112024	15:07:10	fe007850-1654-4671-aebe-2f5531a35ce7	GET	undefined	/api/v1/products
