@@ -5,15 +5,14 @@ module.exports = {
     getProducts: async (req, res, next) => {
         try {
             const products = await Product.find();
-            console.log('products :', products)
             res.send({
                 success: true,
-                message: messages.produts.getProducts.get.success,
-                data: products
+                message: messages.products.get.success,
+                count: products.length,
+                data: products,
             })
 
         } catch (error) {
-            return Error.internalServerError(error)
             res.send({
                 success: false,
                 message: error
@@ -33,6 +32,28 @@ module.exports = {
         } catch (error) {
             console.log('control comes into catch')
             // return Error.internalServerError(error)  
+            res.send({
+                success: false,
+                message: error
+            })
+        }
+    },
+    getProductById: async (req, res, next) => {
+        try {
+            const products = await Product.findById(req.parms.id);
+            console.log('control comes into get products by id',req.parms.id,products)
+            if (!products) {
+                return res.send({
+                    success: false,
+                    message: messages.products.get.notFound,
+                })
+            }
+            res.send({
+                success:true,
+                message:messages.products.get.success,
+                products
+            })
+        } catch (error) {
             res.send({
                 success: false,
                 message: error

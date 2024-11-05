@@ -52,3 +52,17 @@
 03112024	19:19:01	f2e4b34f-f062-4955-9653-a1caac1a2b4b	POST	undefined	/api/v1/products
 03112024	19:19:39	17c15601-b0b6-48f6-921c-0a2feb8e84d0	POST	undefined	/api/v1/products
 03112024	22:31:12	7b2cf290-6677-4db3-857c-d7c02ded4f7a	GET	undefined	/api/v1/products
+05112024	21:24:43	e5090404-79a8-4bbf-9c4f-958aff55e8b3	GET	undefined	/api/v1/products
+05112024	21:25:26	95f93fd9-c6dc-4980-be5b-fa369256c9b8	GET	undefined	/api/v1/products
+05112024	21:26:03	57fee2cb-b25e-44da-b789-20e839888459	GET	undefined	/api/v1/products
+05112024	21:26:28	dab59a4d-fb28-441c-b292-7663346f404f	GET	undefined	/api/v1/products
+05112024	21:26:48	ec6aa8ab-0970-4755-954c-1e7802351dba	GET	undefined	/api/v1/products
+05112024	21:26:57	96be49c7-1ce8-481f-b23b-390e6f207bca	GET	undefined	/api/v1/products
+05112024	21:53:14	b24c49d6-281c-40ec-829d-e7287e418a46	GET	undefined	/api/v1/products
+05112024	22:03:11	b5f9c736-81dd-4436-b33a-ba196ffa6f06	GET	undefined	/api/v1/products/6727ac4dc254340ccc91b6ec
+05112024	22:05:03	e04ac2f3-0eaa-4ef0-8c3d-8aaddafd5207	GET	undefined	/api/v1/products/6727ac4dc254340ccc91b6ec
+05112024	22:05:05	dfb1d494-c5a0-485d-b958-964412c924c3	GET	undefined	/api/v1/products/6727ac4dc254340ccc91b6ec
+05112024	22:06:13	dde1d09d-1ac8-46fa-9b75-da872356a98c	GET	undefined	/api/v1/products/6727ac4dc254340ccc91b6ec
+05112024	22:08:42	30539b35-dd7a-4c71-a8f7-ff2d9496c165	GET	undefined	/api/v1/products/6727ac4dc254340ccc91b6ec
+05112024	22:09:09	4393397a-8bf7-4fec-a68a-b4a3af8c2143	GET	undefined	/api/v1/products/6727ac4dc254340ccc91b6ec
+05112024	22:09:46	fc07b51a-85a9-4365-b35b-cc85a54ffb40	GET	undefined	/api/v1/products/6727ac4dc254340ccc91b6ec
