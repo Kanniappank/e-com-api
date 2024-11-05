@@ -1,0 +1,156 @@
+[
+    {
+        "name": "I phone",
+        "price": 23423,
+        "description": "worlds largest selling phone",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "iphone.jpg"
+            }
+        ],
+        "category": "Mobile Phone",
+        "seller": "amazon",
+        "stock": 5,
+        "noOfReviews": 2,
+        "reviews": [
+            {
+                "name": "hari",
+                "rating": 5,
+                "comment": "good product"
+            }
+        ]
+    },
+    {
+        "name": "Air pods",
+        "price": 5637,
+        "description": "worlds largest selling TWS",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "airPods.jpg"
+            }
+        ],
+        "category": "Head Phones",
+        "seller": "flipkart",
+        "stock": 5,
+        "noOfReviews": 2,
+        "reviews": [
+            {
+                "name": "ramesh",
+                "rating": 5,
+                "comment": "good product"
+            }
+        ]
+    },
+    {
+        "name": "MI Tv",
+        "price": 67483,
+        "description": "worlds largest selling Android TV",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "MItv.jpg"
+            }
+        ],
+        "category": "Electronics",
+        "seller": "Meshoo",
+        "stock": 5,
+        "noOfReviews": 2,
+        "reviews": [
+            {
+                "name": "rajesh",
+                "rating": 5,
+                "comment": "Value for money"
+            }
+        ]
+    },
+    {
+        "name": "Dairy Milk",
+        "price": 100,
+        "description": "Yummy choclates",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "dairyMilk.jpg"
+            }
+        ],
+        "category": "Food",
+        "seller": "Chroma",
+        "stock": 5,
+        "noOfReviews": 2,
+        "reviews": [
+            {
+                "name": "dinesh",
+                "rating": 5,
+                "comment": "Tasty choclate"
+            }
+        ]
+    },
+    {
+        "name": "How to win friends and Influence people",
+        "price": 567,
+        "description": "Book every body should have to be an influencial personality",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "htwfp.jpg"
+            }
+        ],
+        "category": "Books",
+        "seller": "Hikumbodems",
+        "stock": 5,
+        "noOfReviews": 2,
+        "reviews": [
+            {
+                "name": "Raghu",
+                "rating": 5,
+                "comment": "Awesome book"
+            }
+        ]
+    },
+    {
+        "name": "Tommy jens",
+        "price": 873,
+        "description": "attractive clothings",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "tomyJeens.jpg"
+            }
+        ],
+        "category": "Clothes",
+        "seller": "Hikumbodems",
+        "stock": 5,
+        "noOfReviews": 2,
+        "reviews": [
+            {
+                "name": "Raghu",
+                "rating": 5,
+                "comment": "my favourite cloths"
+            }
+        ]
+    },
+    {
+        "name": "Bata sheos",
+        "price": 583,
+        "description": "Most Relaiable shoes in the market",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "bataSheos.jpg"
+            }
+        ],
+        "category": "Shoes",
+        "seller": "Bata",
+        "stock": 5,
+        "noOfReviews": 2,
+        "reviews": [
+            {
+                "name": "stephen",
+                "rating": 5,
+                "comment": "Best Sheos"
+            }
+        ]
+    }
+]

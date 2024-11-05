@@ -25,7 +25,7 @@ class ErrorHandler {
             stack: error.stack || ''
         };
 
-        console.log('response : ', response);
+        console.log('response :', response);
         return Promise.reject(response);
     }
 
@@ -41,7 +41,6 @@ class ErrorHandler {
             err
         });
     }
-
 }
 
 module.exports = new ErrorHandler();

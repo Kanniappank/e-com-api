@@ -34,10 +34,10 @@ app.use('/api/v1',productRouter)
 
 
 
-app.use((err, req, res, next) => {
-    console.error(err.stack);
-    res.status(500).send('Something broke!');
-});
-app.use(errorLogger);
+// app.use((err, req, res, next) => {
+//     console.error(err.stack);
+//     res.status(500).send('Something broke!');
+// });
+// app.use(errorLogger);
 
 app.listen(PORT, () => console.log(`Server running in port ${PORT} in ${ENV}`))
