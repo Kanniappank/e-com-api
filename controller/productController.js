@@ -40,8 +40,7 @@ module.exports = {
     },
     getProductById: async (req, res, next) => {
         try {
-            const products = await Product.findById(req.parms.id);
-            console.log('control comes into get products by id',req.parms.id,products)
+            const products = await Product.findById(req.params.id);
             if (!products) {
                 return res.send({
                     success: false,
@@ -49,11 +48,62 @@ module.exports = {
                 })
             }
             res.send({
-                success:true,
-                message:messages.products.get.success,
+                success: true,
+                message: messages.products.get.success,
                 products
             })
         } catch (error) {
+            res.send({
+                success: false,
+                message: error
+            })
+        }
+    },
+    updateProduct: async (req, res, next) => {
+        try {
+            let product = await Product.findById(req.params.id);
+            if (!product) {
+                return res.send({
+                    success: false,
+                    message: messages.products.get.notFound,
+                })
+            }
+            product = await Product.findByIdAndUpdate(req.params.id, req.body, {
+                new: true,
+                runValidators: true
+            })
+            res.status(200).json({
+                success: true,
+                message: messages.products.update.success,
+                product,
+            })
+        } catch (error) {
+            res.send({
+                success: false,
+                message: error
+            })
+        }
+
+    },
+    deleteProduct: async (req, res, next) => {
+
+        try {
+            let product = await Product.findById(req.params.id);
+            if (!product) {
+                return res.send({
+                    success: false,
+                    message: messages.products.get.notFound,
+                })
+            }
+            await product.remove();
+            res.status(200).json({
+                success: true,
+                message: messages.products.delete.success
+            })
+
+
+        } catch (error) {
+            console.log({error} )
             res.send({
                 success: false,
                 message: error
